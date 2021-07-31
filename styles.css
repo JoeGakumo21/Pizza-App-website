@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background: url("assets/pizza.gif") no-repeat ;
+    background-size: cover;
+    height: auto;
+    padding: 190px;
+    width: 100%;
+}
+.navbar{
+    background-color: #B68D40 !important;
+    height: auto;
+    width: 100%;
+}
+#navbarText a{
+    color: #B8EE30;
+    height: auto;
+}
+#joekumsy{
+    width:50%
+}
+/* aabout section */
+#steps{
+    float: left;
+    width: 40%;
+    height: 70%;
+    border-radius: 10px;
+}
+.about{
+    background-color: #B68D40;
+    height: auto;
+}
+/* menu section */
+.menu-img{
+    width: 100%;
+}
+.
