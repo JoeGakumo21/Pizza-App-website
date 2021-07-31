@@ -1,44 +1,117 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0%;
     box-sizing: border-box;
 }
-/* .home{
-    background: url("assets/pizza.gif") no-repeat ;
+.home{
+    background-image: url("assets/depositphotos_24714647-Pizza.jpg.crdownload");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
-    padding: 190px;
     width: 100%;
-} */
-.navbar{
-    background-color: #B68D40 !important;
+    opacity: 0.7;
     height: auto;
-    width: 100%;
+    padding: 200px;
 }
-#navbarText a{
-    color: #B8EE30;
-    height: auto;
+.namelogo{
+    margin: 0px 5%;
+    color: #FFAE42;
+    font-weight: 700;
 }
-#joekumsy{
-    width:50%
+#pizza, .kumys{
+color: #e12301;
+font-family: monospace;
+font-weight: 600;
 }
-/* aabout section */
-#steps{
-    float: left;
-    width: 40%;
-    height: 70%;
-    border-radius: 10px;
+#ain{
+    color: #ffae42;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.about{
-    background-color: #B68D40;
-    height: auto;
+li {
+    display: inline;
+    margin-right: 20px;
 }
-/* menu section */
-.menu-img{
-    width: 100%;
+ul li a{
+    text-decoration: none;
+    color: #291803;
 }
-#customer{
-    float: left;
+li a:hover{
+    color: #FFAE42;
+    font-size: 30px;
+    cursor: pointer;
+}
+#text{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: black;
+}
+#menu-click{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+/* about section */
+#catoon{
+    float: right;
     width: 50%;
+}
+.paragraph{
+    padding-top: 25%;
+}
+/* about with menu inside */
+.pizza-image{
+    width: 100%;
+    height: 70%;
+}
+.menu-recipe{
+    display: none;
+}
+#btn-menu{
+    margin-left:40%;
+}
+/* order section here */
+.order-pizza{
+    background-color: rgba(9, 10, 19, 0.6);
     height: auto;
 }
+.btn-success:hover{
+    background-color: red;
+
+}
+.form-order{
+    margin-left: 30%;
+}
+.delivery{
+    margin-left: 30%;
+    display: none;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+  }
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  .socialmedia i{
+      font-size: 30px;
+      padding: 30px;
+  }
+  .socialmedia  a i{
+      text-decoration: none;
+      color: sandybrown;
+    
+  }
+  .socialmedia{
+      /* margin-left: 20%; */
+      margin-top: 5px;
+      background-color:rgba(0,0,0,0.7);
+      padding-left: 30%;
+  }
+  
