@@ -3,15 +3,18 @@
     padding: 0%;
     box-sizing: border-box;
 }
+.navbar{
+    background-color: rgba(222,17,190,0.5);
+}
 .home{
-    background-image: url("assets/depositphotos_24714647-Pizza.jpg.crdownload");
+    background-image: url("assets/Hawaiian-BBQ-Chicken-PIzza_brandnew.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     opacity: 0.7;
     height: auto;
-    padding: 200px;
+    padding: 230px;
 }
 .namelogo{
     margin: 0px 5%;
@@ -65,12 +68,12 @@ li a:hover{
     height: 70%;
 }
 .menu-recipe{
-    display: none;
+     display: none; 
 }
 #btn-menu{
     margin-left:40%;
 }
-/* order section here */
+ /* order section here  */
 .order-pizza{
     background-color: rgba(9, 10, 19, 0.6);
     height: auto;
@@ -109,7 +112,7 @@ li a:hover{
     
   }
   .socialmedia{
-      /* margin-left: 20%; */
+      
       margin-top: 5px;
       background-color:rgba(0,0,0,0.7);
       padding-left: 30%;
