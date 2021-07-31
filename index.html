@@ -15,136 +15,216 @@
   <!-- jquery cdn -->
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="JOEKUMSYPIZZAIN Image"></a>
-      <!-- <<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> -->
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
+  <!-- =======================start of home================= -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="home">
+
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid ">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <h1 class="namelogo">Joe<span class="text-dark">KumsY</span><span id="pizza">PIZZ</span><span id="ain">AIN<span
+            class="text-light">!!!!</span></span></h1>
+      <div class="navi">
+        <ul class="nav-items">
+          <li><a href="#about">About</a></li>
+          <li><a href="#btn-menu">Menu</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#contact">Contacts</a></li>
         </ul>
       </div>
-    </div>
-  </nav>
-  <div class="container home">
+    </nav>
+    <h3 class="text-center" id="text">Get the pest Pizza From Us<br>JoeKumsy PizzaIn</h3>
     <div class="row">
-      <p class="text-center">
-        <img src="assets/nameorg.png" alt="NameOrganizationimg" id="joekumsy">
+      <div class="col-2">
+        <div class="form-group">
+          <button class=" btn btn-warning text-light btn-center btn-medium" id="menu-click">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ==========================end of navbar -=======================-->
+  <!-- =====================about section=========================== -->
+  <div class="container-fluid">
+    <div class="row" id="about">
+      <h2 class="text-center text-dark">About Us</h2>
+      <div class="col-sm-12">
+        <img src="assets/catoon.jpg" alt="Cattoon advert" id="catoon">
+        <p class="text-dark paragraph">
+          JoeKumsyPizzaIn is the best place to have you served with the best mumomulisious
+          spiced, affordable and friendly pizza ever, This website allows you to order pizza at affordable
+          pric and we consider each and every individual by offering ourserves to the best we can
+          You can order your pizza instantly and
+          the order will be delived to your destination
+          Do your order and enjoy the mumomulisious
+          pizza!!!!!!!!!!!1</p>
+        </p>
+      </div>
+    </div>
+    <!-- menu section -->
+    <p class="text-info text-center">Visit our menu by clicking the button</p>
+    <button class="btn btn-warning" id="btn-menu">Our Menu</button>
+    <div class="menu-recipe">
+      <div class="row mt-5">
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-2">
+          <img src="assets/pizza.gif" alt="Pizza image" class="pizza-image">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-2">
+          <img src="assets/pizza_fresca.jpg" alt="Pizza image" class="pizza-image">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-2">
+          <img src="assets/pizza-bacon-mushrooms.jpg" alt="Pizza image" class="pizza-image">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-2">
+          <img src="assets/pizza-pollo-arrosto.jpg" alt="Pizza image" class="pizza-image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-2">
+          <img src="assets/Cheesy-Crust-Pizza-72-dpi-800w.jpg" alt="Pizza image" class="pizza-image">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-2">
+          <img src="assets/anoter.jpg" alt="Pizza image" class="pizza-image">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-2">
+          <img src="assets/istockphoto.jpg" alt="Pizza image" class="pizza-image">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-2">
+          <img src="assets/delish-homemade-pizza.png" alt="Pizza image" class="pizza-image">
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- ===========================end======================= -->
+  <!-- ============================section menu===================== -->
+  <!-- =============================end of order section================= -->
+  <div class="container-fluid order-pizza">
+    <div class="row mt-2">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <h3 class="text-warning text-center">Order Here</h3>
+        <p class="text-center">
+        <form action="" class="form-order">
+          <div class="col-7">
+            <div class="form-group">
+              <input type="text " class="form-control" placeholder="Customer Name">
+            </div>
+            <div class="form-group mt-2">
+              <select name="flavour " id="pizzaFlavor" class="form-control">
+                <option value="choose">Choose pizza <span class="text-danger"> Flavour</span></option>
+                <option value="Pepperoni">Pepperoni Pizza</option>
+                <option value="meat">Meat Pizza</option>
+                <option value="Hawaiian">Hawaiian Pizza</option>
+                <option value="buffalo">Buffalo Pizza</option>
+                <option value="Margheriata-Pizza">Margheriata Pizza</option>
+              </select>
+            </div>
+            <div class="form-group mt-2">
+              <select name="flavour " id="pizzaCrust" class="form-control">
+                <option value="choose">Choose Pizza <span class="text-danger">Crust</span></option>
+                <option value="Cheese-stuffed">Cheese-stuffed Crust</option>
+                <option value="pizza-bagels">Pizza Bagels</option>
+                <option value="Sicilian">Sicilian style</option>
+                <option value="chicago">Chicago Deep dish</option>
+                <option value="Neapolitian">Neapolitian Crust</option>
+              </select>
+            </div>
+            <div class="form-group mt-2">
+              <select name="flavour " id="pizzaToppings" class="form-control">
+                <option value="choose">choose Pizza <span class="text-danger">Topping</span> </option>
+                <option value="Mushrooms">Mushrooms</option>
+                <option value="Bacon">Bacon</option>
+                <option value="Extra-Cheese">Extra-Cheese</option>
+                <option value="Green-peppers">Green-peppers</option>
+                <option value="Black olives">Neapolitian</option>
+              </select>
+            </div>
+            <div class="form-group mt-2 mb-2">
+              <select name="flavour " id="pizzaSize" class="form-control">
+                <option value="choose">Choose Pizza <span class="text-danger">Size</span> </option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              </select>
+            </div>
+            <div class="form-group mt-2">
+              <input type="number" name="numberofpizza" id=noOfPizza" placeholder="Enter Number of Pizza"
+                class="form-control">
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <button class="btn btn-success mt-3 mb-2">Checkout</button>
+              </div>
+              <div class="col-6">
+                <div class="form-group mt-3">
+                  <button class=" btn btn-medium btn-success text-warning">Purchase More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="row delivery">
+        <div class="col-5">
+          <div class="form-group">
+            <label for="destination">Location:</label>
+            <input type="text" name="location" id="location-delivery" class="form-control" placeholder="Your location">
+          </div>
+          <div class="col-6">
+            <div class="form-group mt-3">
+              <button class=" btn btn-medium btn-success text-warning">Submit</button>
+            </div>
+          </div>
+          <!-- emmbedding a map -->
+          <div class="mapouter mt-3">
+            <div class="gmap_canvas">
+              <iframe width="200" height="200" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+              </iframe>
+            </div>
+          </div>
+          <div class="display">Total Charges to appear here</div>
+        </div>
+      </div>
+      </form>
       </p>
     </div>
-  </div><div class="container">
+  </div>
+  </div>
+  <!-- ================start of contact section====================== -->
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12">
-        
+      <h3 class="text-center text-success">Contact</h3>
+      <div class="socialmedia">
+        <div class="row">
+          <div class="form col-4">
+            <div class="form-group mt-3">
+              <input type="email" id="email" placeholder="Email address" class="form-control mb-3">
+              <button class="btn btn-secondary">Submit</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-12 icons">
+          <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://mail.google.com"><i class="fas fa-mail-bulk"></i></a>
+          <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+          <a href="https://ke.linkedin.com"><i class="fab fa-linkedin"></i></a>
+          <a href="https://web.whatsapp.com"><i class="fab fa-whatsapp-square"></i></a>
+        </div>
       </div>
     </div>
   </div>
-<div class="container-fluid mb-5 about">
-  <div class="row">
-    <div class="col-sm-12">
-      <h2 class="text-center text-warning">ABOUT</h2>
-      <img src="assets/homemade-pizza-dough-step-1.jpg" alt="Steps to prepare Pizza at home image"  id="steps">
-        <p class="text-warning mt-10">JoeKumsy Pizzain  is the best website 
-          where you can order pizza at affordable 
-          price.
-          You can order your pizza instantly and 
-          the order will be delived to your destination
-          Do your order and enjoy the mumomulisious 
-          pizza!!!!!!!!!!!1</p>
-    </div>
-  </div>
-</div>
-<div class="container-fluid mt-4">
-  <div class="row season">
-    <h2 class="text-center text-warning">OUR MENU</h2>
-    <div class="col-sm-12 col-md-6 col-lg-3">
-      <img src="assets/pizza_fresca.jpg" alt="pizza_fresca image" class="menu-img">
-      <p class="text-center text-danger">pizza_fresca @Ksh.200</p>
-    </div>
-    <div class="col-sm-12 col-md-6 col-lg-3">
-      <img src="assets/catoon.jpg" alt="Catoon serving" class="menu-img">
-      <p class="text-center text-danger">@ Ksh 800</p>
-    </div>
-    <div class="col-sm-12 col-md-6 col-lg-3">
-      <img src="assets/istockphoto.jpg" alt="istock pizza image" class="menu-img">
-      <p class="text-center text-danger">istock pizza @ Ksh 800</p>
-    </div>
-    <div class="col-sm-12 col-md-6 col-lg-3">
-      <img src="assets/pizza-pollo-arrosto.jpg" alt="pizza-pollo-arrosto image" class="menu-img">
-      <p class="text-center text-danger">pizza-pollo-arrosto @ Ksh 800</p>
-    </div>
-  </div>
-</div>
-<!-- =======================end of menu section==================== -->
-<!-- ==============================order  section =========================== -->
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12 col-lg-12">
-      <h1 class="text-warning text-center text-uppercase mt-3 mb-2">Order</h1>
-      <img src="assets/cutomer.png" alt="Customer" id="customer">
-      <div class="row col-5 col-md-6 col-sm-6 col-lg-6"">
-        <p class="text-warning text-center">Choose Your Topping Here</p>
-        <select name="selection" id="flavour">
-          <option value="chicken">Chicken Buffalo Pizza</option>
-          <option value="chicken">Cheese Pizza</option>
-          <option value="chicken">Pepperoni Pizza</option>
-          <option value="chicken">Meat Pizza</option>
-          <option value="chicken">Margherita Pizza</option>
-          <option value="chicken">Hawaiian Pizza</option>
-        </select>
-      </div>
-      <div class="row col-5 col-md-6 col-sm-12 col-lg-6"">
-        <p class="text-warning text-center">Choose Your Topping Here</p>
-        <select name="selection" id="crust">
-          <option value="chicken">Crispy@ Ksh. 150</option>
-          <option value="chicken">Stuffed @ Ksh. 250</option>
-          <option value="chicken">Glunen-free@ Ksh. 350</option>
-          <option value="chicken">Pizza Bagels@ Ksh. 450</option>
-        </select>
-      </div>
-      <div class="row col-5 col-md-6 col-sm-12 col-lg-6"">
-        <p class="text-warning text-center">Choose Your Topping Here</p>
-        <select name="selection" id="size">
-          <option value="chicken">Small</option>
-          <option value="chicken">Medium</option>
-          <option value="chicken">Large</option>
-        </select>
-      </div>
-      <div class="row col-5 col-md-6 col-sm-12 col-lg-6">
-        <p class="text-warning text-center">Choose Your Topping</p>
-        <select name="selection" id="toppings">
-          <option value="chicken">Pepperoni/Green peppers @ksh. 150</option>
-          <option value="chicken">Mushroom @ksh. 200</option>
-          <option value="chicken">Bacon @Ksh 250</option>
-          <option value="chicken"></option>
-          <option value="chicken">Sausage @Ksh. 300</option>
-          <option value="chicken">Extra Cheese @Ksh. 300</option>
-        </select>
-      </div>
-      <button class="btn btn-primary btn-medium mt-2">CheckOut</button>       
-      <button class="btn btn-primary btn-medium mt-2">More Pizza</button>
-      <button class="btn btn-primary btn-medium mt-2">Delivery</button>
-    </div>
-  </div>
-</div>
-<!-- =============================end of order section================= -->
-
+  
   <!-- javascript script -->
   <script src="main.js"></script>
 </body>
