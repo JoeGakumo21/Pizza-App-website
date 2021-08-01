@@ -32,7 +32,7 @@
   </div>
   <div class="container-fluid ">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-      <h1 class="namelogo">Joe<span class="text-dark">KumsY</span><span id="pizza">PIZZ</span><span id="ain">AIN<span 
+      <h1 class="namelogo">Joe<span class="text-dark">KumsY</span><span id="pizza">PIZZ</span><span id="ain">AIN<span
             class="text-light">!!!!</span></span></h1>
       <div class="navi">
         <ul class="nav-items">
@@ -47,7 +47,8 @@
     <div class="row">
       <div class="col-2">
         <div class="form-group">
-          <button class=" btn btn-warning text-light btn-center btn-medium" id="menu-click">Order Now</button>
+          <a href="#order"><button class=" btn btn-danger text-light btn-center btn-medium" id="menu-click">Order
+              Now</button></a>
         </div>
       </div>
     </div>
@@ -71,7 +72,7 @@
       </div>
     </div>
     <!-- menu section -->
-    <p class="text-info text-center">Visit our menu by clicking the button</p>
+    <p class="text-info text-center">Visit our menu by Hovering this button</p>
     <button class="btn btn-warning" id="btn-menu">Our Menu</button>
     <div class="menu-recipe">
       <div class="row mt-5">
@@ -114,90 +115,65 @@
         <h3 class="text-warning text-center">Order Here</h3>
         <p class="text-center">
         <form action="" class="form-order" id="form-inputs">
-          <div class="col-7">
-            <div class="form-group">
-              <input type="text " class="form-control" placeholder="Customer Name" id="customerName">
-            </div>
-            <div class="form-group mt-2">
-              <select name="flavour " id="pizzaFlavor" class="form-control">
-                <option value="choose">Choose pizza <span class="text-danger"> Flavour</span></option>
-                <option value="Pepperoni">Pepperoni Pizza</option>
-                <option value="meat">Meat Pizza</option>
-                <option value="Hawaiian">Hawaiian Pizza</option>
-                <option value="buffalo">Buffalo Pizza</option>
-                <option value="Margheriata-Pizza">Margheriata Pizza</option>
-              </select>
-            </div>
-            <div class="form-group mt-2">
-              <select name="flavour " id="pizzaCrust" class="form-control">
-                <option value="choose">Choose Pizza <span class="text-danger">Crust</span></option>
-                <option value="Cheese-stuffed">Cheese-stuffed Crust</option>
-                <option value="pizza-bagels">Pizza Bagels</option>
-                <option value="Sicilian">Sicilian style</option>
-                <option value="chicago">Chicago Deep dish</option>
-                <option value="Neapolitian">Neapolitian Crust</option>
-              </select>
-            </div>
-            <div class="form-group mt-2">
-              <select name="flavour " id="pizzaToppings" class="form-control">
-                <option value="choose">choose Pizza <span class="text-danger">Topping</span> </option>
-                <option value="Mushrooms">Mushrooms</option>
-                <option value="Bacon">Bacon</option>
-                <option value="Extra-Cheese">Extra-Cheese</option>
-                <option value="Green-peppers">Green-peppers</option>
-                <option value="Black olives">Neapolitian</option>
-              </select>
-            </div>
-            <div class="form-group mt-2 mb-2">
-              <select name="flavour " id="pizzaSize" class="form-control">
-                <option value="choose">Choose Pizza <span class="text-danger">Size</span> </option>
-                <option value="small">Small</option>
-                <option value="medium">Medium</option>
-                <option value="large">Large</option>
-              </select>
-            </div>
-            <div class="form-group mt-2">
-              <input type="number" name="numberofpizza" id=noOfPizza" placeholder="Enter Number of Pizza"
-                class="form-control">
-            </div>
-            <div class="row">
-              <div class="col-6">
-                <button class="btn btn-success mt-3 mb-2" id="checkout-pizza">Checkout</button>
-              </div>
-              <div class="col-6">
-                <div class="form-group mt-3">
-                  <button class=" btn btn-medium btn-success text-warning">Purchase More</button>
+          <div class="col-5">
+            <form>
+              <div class="row">
+                <div class="form-group mt-2">
+                  <select name="flavour" id="pizzaFlavor" class="form-control">
+                    <option value="choose">Choose pizza <span class="text-danger"> Flavour</span></option>
+                    <option value="300">Pepperoni Pizza</option>
+                    <option value="350">Meat Pizza</option>
+                    <option value="400">Hawaiian Pizza</option>
+                    <option value="450">Buffalo Pizza</option>
+                    <option value="500">Margheriata Pizza</option>
+                    <option value="550">Hawaiian 2 spiced</option>
+                    <option value=" 600">Mushroom Pizza</option>
+                    <option value="650">Regina Pizza</option>
+
+                  </select>
                 </div>
-              </div>
-            </div>
+                <div class="form-group mt-2 mb-2">
+                  <select name="size " id="pizzaSize" class="form-control" required>
+                    <option value="choose">Choose Pizza <span class="text-danger">Size</span> </option>
+                    <option value="800">Small</option>
+                    <option value="1000">Medium</option>
+                    <option value="1500">Large</option>
+                  </select>
+                </div>
+                <div class="form-group mt-2">
+                  <select name="crust" id="pizzaCrust" class="form-control">
+                    <option value="choose">Choose Pizza <span class="text-danger">Crust</span></option>
+                    <option value="250">Cheese-stuffed Crust</option>
+                    <option value="300">Pizza Bagels</option>
+                    <option value="350">Sicilian style</option>
+                    <option value="400">Chicago Deep dish</option>
+                  </select>
+                </div>
+                <div class="form-group mt-2">
+                  <select name="toppings " id="pizzaToppings" class="form-control">
+                    <option value="choose">choose Pizza <span class="text-danger">Topping</span> </option>
+                    <option value="200">Mushrooms</option>
+                    <option value="250">Bacon</option>
+                    <option value="300">Extra-Cheese</option>
+                    <option value="350">Green-peppers</option>
+                    <option value="400">Neapolitian</option>
+                  </select>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="form-group mt-2">
+
+                    <input class="form-control" type="text" name="pizza" id="quan" placeholder="0" max="" min="0">
+                  </div><br><br><br><br><br><br>
+                  <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
+                    onclick="getTotalAmount();"><strong>Checkout</strong></button>
+
+                </div>
+            </form>
           </div>
+        </form>
       </div>
-      <div class="row delivery">
-        <div class="col-5">
-          <div class="form-group">
-            <label for="destination">Location:</label>
-            <input type="text" name="location" id="location-delivery" class="form-control" placeholder="Your location">
-          </div>
-          <div class="col-6">
-            <div class="form-group mt-3">
-              <button class=" btn btn-medium btn-success text-warning">Submit</button>
-            </div>
-          </div>
-          <!-- emmbedding a map -->
-          <div class="mapouter mt-3">
-            <div class="gmap_canvas">
-              <iframe width="200" height="200" id="gmap_canvas"
-                src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-              </iframe>
-            </div>
-          </div>
-          <div class="display">Total Charges to appear here</div>
-          <ol class="checkout"></ol>
-        </div>
-      </div>
-      </form>
-      </p>
+
     </div>
   </div>
   </div>
@@ -225,7 +201,14 @@
       </div>
     </div>
   </div>
-  
+  <div class="container">
+    <div class="row">
+      <div class="footer">
+        <p class="text-center text-danger">Developer &copy; 2021 <span style="color:darkorange;">JoeGakumo</span></p>
+      </div>
+    </div>
+  </div>
+
   <!-- javascript script -->
   <script src="main.js"></script>
 </body>
