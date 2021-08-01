@@ -113,10 +113,10 @@
       <div class="col-sm-12 col-md-12 col-lg-12">
         <h3 class="text-warning text-center">Order Here</h3>
         <p class="text-center">
-        <form action="" class="form-order">
+        <form action="" class="form-order" id="form-inputs">
           <div class="col-7">
             <div class="form-group">
-              <input type="text " class="form-control" placeholder="Customer Name">
+              <input type="text " class="form-control" placeholder="Customer Name" id="customerName">
             </div>
             <div class="form-group mt-2">
               <select name="flavour " id="pizzaFlavor" class="form-control">
@@ -162,7 +162,7 @@
             </div>
             <div class="row">
               <div class="col-6">
-                <button class="btn btn-success mt-3 mb-2">Checkout</button>
+                <button class="btn btn-success mt-3 mb-2" id="checkout-pizza">Checkout</button>
               </div>
               <div class="col-6">
                 <div class="form-group mt-3">
@@ -193,6 +193,7 @@
             </div>
           </div>
           <div class="display">Total Charges to appear here</div>
+          <ol class="checkout"></ol>
         </div>
       </div>
       </form>
@@ -209,7 +210,7 @@
           <div class="form col-4">
             <div class="form-group mt-3">
               <input type="email" id="email" placeholder="Email address" class="form-control mb-3">
-              <button class="btn btn-secondary">Submit</button>
+              <button class="btn btn-secondary" onsubmit="submitmail()">Submit</button>
             </div>
           </div>
         </div>
