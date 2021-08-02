@@ -83,6 +83,7 @@ $(function () {
     $(".pickupLocation").click(()=>{
         prompt("Kindly indicate the location");
         alert("Your delivery fee charges is Ksh:200, the total Money are: ");
+        alert("continue shopping with us");
     })
 
     $('.summary').hide();
