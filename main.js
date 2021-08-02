@@ -72,6 +72,7 @@
 // }
 
 $(function () {
+    // show and hide the menus
     $("#btn-menu").hover(()=>{
         $(".menu-recipe").show();
     })
