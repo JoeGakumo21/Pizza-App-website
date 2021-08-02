@@ -3,6 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Archivo Narrow', sans-serif;
+
 }
 .navbar{
     background-color: rgba(174, 185, 9, 0.5);
@@ -15,7 +16,7 @@
     width: 100%;
     opacity: 0.7;
     height: auto;
-    padding: 250px;
+    padding: 400px;
 }
 .namelogo{
     margin: 0px 5%;
