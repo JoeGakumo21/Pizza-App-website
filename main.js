@@ -83,6 +83,7 @@ $(function () {
     $(".pickupLocation").click(()=>{
         prompt("Kindly indicate the location");
         alert("Your delivery fee charges is Ksh:200, the total Money are: ");
+        alert("We appreciate your partnership with us, Happy moments and continue shopping with JoeKumsy PizzaIn");
     })
 
     $('.summary').hide();
@@ -101,7 +102,7 @@ $(function () {
         //switch case to determine the pizza
         let price, totalPrice;
         switch (flavour) {
-            case flavour = "vegtikka":
+            case flavour = "veggiePizza":
                 switch (size) {
                     case size = "small":
                         price = 800;
@@ -141,7 +142,7 @@ $(function () {
                         break;
                 }
                 break;
-            case flavour = "chickentikka":
+            case flavour = "CheesePizza":
                 switch (size) {
                     case size = "small":
                         price = 800;
@@ -181,7 +182,7 @@ $(function () {
                         break;
                 }
                 break;
-            case flavour = "periperi":
+            case flavour = "PepperoniPizza":
                 switch (size) {
                     case size = "small":
                         price = 800;
@@ -221,7 +222,7 @@ $(function () {
                         break;
                 }
                 break;
-            case flavour = "bbq":
+            case flavour = "meatPizza":
                 switch (size) {
                     case size = "small":
                         price = 800;
@@ -261,7 +262,7 @@ $(function () {
                         break;
                 }
                 break;
-            case flavour = "boerewors":
+            case flavour = "margheritaPizza":
                 switch (size) {
                     case size = "small":
                         price = 800;
@@ -381,7 +382,7 @@ $(function () {
                         break;
                 }
                 break;
-            case flavour = "regina":
+            case flavour = "buffaloPizza":
                 switch (size) {
                     case size = "small":
                         price = 800;

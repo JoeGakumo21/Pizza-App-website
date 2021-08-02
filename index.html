@@ -18,7 +18,10 @@
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-
+<!-- fonts link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -26,19 +29,19 @@
   <div class="container-fluid">
     <div class="row">
       <div class="home">
-
+        
       </div>
     </div>
   </div>
   <div class="container-fluid ">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-      <h1 class="namelogo">Joe<span class="text-dark">KumsY</span><span id="pizza">PIZZ</span><span id="ain">AIN<span
+      <h1 class="namelogo">Joe<span class="text-dark">KumsY</span><span id="pizza1">PIZZ</span><span id="ain">AIN<span
             class="text-light">!!!!</span></span></h1>
       <div class="navi">
         <ul class="nav-items">
           <li><a href="#about">About</a></li>
           <li><a href="#btn-menu">Menu</a></li>
-          <li><a href="#order">Order</a></li>
+          <li><a href="#pizza">Order</a></li>
           <li><a href="#contact">Contacts</a></li>
         </ul>
       </div>
@@ -109,24 +112,24 @@
   <!-- ===========================end======================= -->
   <!-- ============================section menu===================== -->
   <!-- =============================end of order section================= -->
-  <div class="container orderdetailshere">
+  <div class="container-fluid orderdetailshere">
     <div class="row ">
       <div class="col-6 col-sm-12 col-md-6 col-lg-6">
-        <div class="orders" id="pizza1">
+        <div class="orders" id="pizza2">
           <h1 class="text-center" id="pizza">Order Pizza</h1>
           <div class="form-group row">
             <div class="col-6 text-center">
               <form class="col text-center">
                 <select class="custom-select form-control mb-3 flavour" required>
                   <option value="choose">Choose Pizza of choise</option>
-                  <option value="vegtikka">Veg Tikka</option>
-                  <option value="chickentikka">Chicken Tikka</option>
-                  <option value="periperi">Peri-Peri Chicken</option>
-                  <option value="bbq">BBQ Steak</option>
-                  <option value="boerewors">Boerewors</option>
-                  <option value="hawaiian">Hawaiian</option>
+                  <option value="veggiePizza">Veggie Pizza</option>
+                  <option value="CheesePizza">Cheese Pizza</option>
+                  <option value="PepperoniPizza">Pepperoni Pizza</option>
+                  <option value="meatPizza">Meat Pizza</option>
+                  <option value="margheritaPizza">Margherita Pizza</option>
+                  <option value="hawaiian">Hawaiian Pizza</option>
                   <option value="mushroom">Chicken and Mushroom</option>
-                  <option value="regina">Regina Pizza</option>
+                  <option value="buffaloPizza">Buffalo Pizza</option>
                 </select>
 
                 <select class="custom-select form-control mb-3" id="size" required>
@@ -160,13 +163,12 @@
                   <option value="beef">Beef Peperoni @ sh. 600</option>
                   <option value="chicken">Periperi Chicken @ sh.700</option>
                 </select>
-                <label for="number">Number of Pizza's</label>
                 <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
 
 
               </form>
               <a href="#summary">
-                <button type="submit" class="btn btn-success mt-2" id="proceed">
+                <button type="submit" class="btn btn-success mt-2 mb-3" id="proceed">
                   Proceed Checkout
                 </button>
               </a>
@@ -197,7 +199,7 @@
             </div> -->
             <div class="col-6">
               <div class="d-block mx-auto text-center">
-                <button class='pickupLocation btn mt-2 bg-danger'>Pick Up</button>
+                <button class='pickupLocation btn mt-2 bg-danger mb-3'>Pick Up</button>
               </div>
             </div>
           </div>
@@ -210,15 +212,15 @@
   <div class="container-fluid" id="contact">
     <div class="row">
       <h3 class="text-center text-success">Contact</h3>
-      <div class="socialmedia">
-        <div class="row">
+       <div class="socialmedia">
+        <!-- <div class="row">
           <div class="form col-4">
             <div class="form-group mt-3">
               <input type="email" id="email" placeholder="Email address" class="form-control mb-3" required>
               <button class="btn btn-secondary" onsubmit="submitmail()">Submit</button>
             </div>
           </div>
-        </div>
+        </div> --> 
         <div class="col-sm-6 col-md-4 col-lg-12 icons">
           <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
           <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
