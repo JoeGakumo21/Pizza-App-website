@@ -83,7 +83,7 @@ $(function () {
     // prompt user location
     $(".pickupLocation").click(()=>{
         prompt("Kindly indicate the location");
-        alert("Your delivery fee charges is Ksh:200, the total Money are: ");
+        alert("Your delivery fee charges is Ksh:200, the total Money are:");
         alert("We appreciate your partnership with us, Happy moments and continue shopping with JoeKumsy PizzaIn");
     })
 
